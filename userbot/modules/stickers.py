@@ -95,8 +95,8 @@ async def kang(args):
                 # pack
                 emoji = splat[1]
 
-        packname = f"Uniborg_Packa_834333254"
-        packnick = f"Uniborg_Packa_834333254"
+        packname = f"Uniborg_Pack2_1074047567"
+        packnick = f"Uniborg_Pack2_1074047567"
         cmd = '/newpack'
         file = io.BytesIO()
 
@@ -123,8 +123,8 @@ async def kang(args):
                 x = await conv.get_response()
                 while "120" in x.text:
                     pack += 1
-                    packname = f"Uniborg_Packa_834333254"
-                    packnick = f"Uniborg_Packa_834333254"
+                    packname = f"Uni_Borg_Packs_1074047567_as"
+                    packnick = f"Uni_Borg_Packs_1074047567_as"
                     await args.edit("`Switching to Pack " + str(pack) +
                                     " due to insufficient space`")
                     await conv.send_message(packname)
